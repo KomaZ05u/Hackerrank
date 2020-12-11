@@ -1,5 +1,9 @@
-//https://www.hackerrank.com/contests/lc-method/challenges
-public static void main(String[] args){
+package com.belajar;
+
+import java.util.Scanner;
+
+public class lembur {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int hp = input.nextInt();
         int n = input.nextInt();
@@ -28,3 +32,4 @@ public static void main(String[] args){
         darah = (darah-30);
         return darah;
     }
+}
